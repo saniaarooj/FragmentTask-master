@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maqso.fragmenttask.MainActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:text="Main Activity "
+       android:textAlignment="center"
+       android:textSize="25dp"
+       android:gravity="center"
+       android:id="@+id/textView" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.maqso.fragmenttask.FragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+
+        />
+
+
+</RelativeLayout>
